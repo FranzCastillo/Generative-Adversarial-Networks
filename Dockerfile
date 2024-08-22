@@ -15,7 +15,7 @@ RUN pip install notebook
 RUN pip install -U --force-reinstall --no-cache https://github.com/johnhw/jhwutils/zipball/master
 RUN pip install -U --force-reinstall --no-cache https://github.com/AlbertS789/lautils/zipball/master
 
-RUN pip install scikit-image numpy matplotlib scipy
+RUN pip install scikit-image numpy matplotlib scipy ipython
 
 RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
